@@ -1,0 +1,24 @@
+//- layout.pug
+doctype html
+html
+  head
+    link(rel="stylesheet" media="screen and (max-width=700px)" href="../static/phone.css")
+    title HIP HOP dance school
+    block scripts
+    block style 
+     
+  body
+    nav#navbar 
+        ul 
+            div#logo 
+                img(src="/static/log2.png")
+                | Hip-Hop
+            li #[a(href="/") Home]
+            li #[a(href="/") About]
+            li #[a(href="/") Batches] 
+            li #[a(href="/") Services]
+            li #[a(href="/contact") Contact]
+    block content
+    footer#footer
+        | copyright © 2019 HipHopDanceschool.com | All right reserved
+      

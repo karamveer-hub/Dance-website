@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Vollkorn&display=swap');
+.container{
+    height: 86vh;
+    padding: 30px 10px;
+}
+h1{
+    
+    color: rgb(20, 20, 126);
+    padding: 12px;
+    font-family: 'Vollkorn', serif;
+    text-align: center;
+}
+.input{
+    /* display: block; */
+    width: 30%;
+    padding: 3px;
+    margin: 12px 3px;
+    border:1px solid rgb(0, 26, 82);
+    border-radius: 6px;
+    outline: none;
+
+}
+.form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /* border: 2px solid red; */
+}
+button{
+    border: 1.5px solid black;
+    color: white;
+    background-color: rgb(48, 46, 46);
+    padding: 3px 10px;
+    opacity: 1;
+    border-radius: 6px;
+    cursor: pointer;
+    outline: none;
+}

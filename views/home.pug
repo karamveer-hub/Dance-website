@@ -1,0 +1,60 @@
+extends base.pug 
+
+block scripts 
+    script(src='/static/index.js')
+
+block style 
+    style
+        include ../static/style.css
+        include ../static/phone.css
+              
+
+block content
+    section#introSection 
+        div.block
+            div#allimages
+                img(src="/static/bg2.jpg" class="img")
+                img(src="/static/bg4.jpg" class="img5")
+                img(src="/static/bg3.jpg" class="img6")
+                img(src="/static/bg2.jpg" class="img")
+                img(src="/static/bg4.jpg" class="img5")
+                img(src="/static/bg3.jpg" class="img6")
+    section#sponsorSection 
+        h2 Opportunities
+        div.main
+            div.card1 
+                h3 Best dancers
+                div.card-box 
+                    div.card-img 
+                        img(src="/static/log3.png")
+                    div.card-content 
+                        ul
+                        li Dharmesh
+                        li Terence loouis
+                        li Remo d Souza
+                        li Ganesh acharya
+            div.card2 
+                h3 Top 5 Trainers
+                div.card-box 
+                    div.card-img 
+                        img(src="/static/log3.png")
+                    div.card-content 
+                        p Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem illo facilis unde!
+            div.card3 
+                h3 Get chance in WDC
+                div.card-box 
+                    div.card-img 
+                        img(src="/static/log3.png")
+                    div.card-content 
+                        p Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem illo facilis unde!
+    section#sponsor
+        h2 Parteners
+        div#images
+            div#img1 
+                img(src="/static/p1.jpeg", alt="sponsor image " class="img")
+            div2#img2 
+                img(src="/static/p2.jpeg", alt="sponsor image " class="img")
+            div3#img3
+                img(src="/static/p3.jpeg", alt="sponsor image " class="img")
+            div4#img4   
+                img(src="/static/p4.jpeg", alt="sponsor image " class="img")

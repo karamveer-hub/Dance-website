@@ -1,0 +1,57 @@
+doctype html
+html
+    head
+        style
+            include ../static/style.css
+    body        
+        nav#navbar.top 
+            ul 
+                div#logo 
+                    img(src="/static/log2.png")
+                    | Hip-Hop
+                li #[a(href="/") Home]
+                li #[a(href="/") About]
+                li #[a(href="/") Batches] 
+                li #[a(href="/") Services]
+                li #[a(href="/") Contact]
+    section#introSection 
+        div WELCOME TO HIP HOP DANCE SCHOOL
+        div#small EAT DANCE REPEAT
+    section#sponsorSection 
+        h2 Opportunities
+        div.main
+            div.card 
+                h3 Best dancers
+                div.card-box 
+                    div.card-img 
+                        img(src="/static/log3.png")
+                    div.card-content 
+                        p Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem illo facilis unde!
+            div.card 
+                h3 Top 5 Trainers
+                 div.card-box 
+                    div.card-img 
+                        img(src="/static/log3.png")
+                    div.card-content 
+                        p Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem illo facilis unde!
+            div.card 
+                h3 Get chance in WDC
+                 div.card-box 
+                    div.card-img 
+                        img(src="/static/log3.png")
+                    div.card-content 
+                        p Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem illo facilis unde!
+    section#sponsor
+        h2 Parteners
+        div#images
+            img(src="/static/p1.jpeg", alt="sponsor image " class="img")
+            img(src="/static/p2.jpeg", alt="sponsor image " class="img")
+            img(src="/static/p3.jpeg", alt="sponsor image " class="img")
+            img(src="/static/p4.jpeg", alt="sponsor image " class="img")
+    footer
+        | copyright © 2019 HipHopDanceschool.com | All right reserved
+
+    script
+        include ../static/index.js
+
+        
